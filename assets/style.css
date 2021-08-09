@@ -3,10 +3,11 @@ body, html{
     color: white;
     height: 100%;
     background-color: #000000;
+    width: 100%;
 }
 .navbar {
     background-color: black;
-    height: 15%;
+    min-height: 15%;
 }
 
 .nav-link{
@@ -14,18 +15,17 @@ body, html{
 }
 
 .active{
-    background-color: rgb(29, 235, 2);
+    background-color: rgba(105, 186, 39, 1);
     border-radius: 5px;
 }
 
 .jumbotron {
     padding: 2rem 1rem;
-    opacity: 70%;
     background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 85%;
+    min-height: 85%;
 }
 
 .card{
@@ -78,4 +78,13 @@ body, html{
 
 #content a:hover,#news a:hover{
     text-decoration: underline;
+}
+
+
+.text-success{
+    color: rgba(105, 186, 39, 1) !important;
+}
+
+.bg-success {
+    background-color: rgba(105, 186, 39, 1) !important;
 }
