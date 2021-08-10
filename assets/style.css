@@ -62,7 +62,16 @@ body, html{
   transform: translateX(0);
 }
 
-
+.tittle-box{
+    background-color: #171717;
+    padding: 70px;
+    position: absolute;
+    margin: 0;
+    top: 85%;
+    left: 12.5%;
+    width: 75%;
+    text-align: center;
+}
 
 .card{
     background-color: transparent;
@@ -71,7 +80,7 @@ body, html{
     background-color: #171717 !important;
 }
 
-.card .card-img .img-fluid{
+.carousel-item .img-fluid{
     max-width: 70%;
 }
 
