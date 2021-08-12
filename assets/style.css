@@ -10,6 +10,13 @@ body, html{
     min-height: 15%;
 }
 
+.avatar{
+    vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 .nav-link{
     color: white !important;
 }
