@@ -139,3 +139,7 @@ body, html{
 .bg-success {
     background-color: rgba(105, 186, 39, 1) !important;
 }
+
+.dropdown-menu a:hover{
+    background-color: pink;
+}
