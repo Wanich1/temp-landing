@@ -24,6 +24,11 @@ body, html{
     color: white;
 }
 
+.cust-hover:hover{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
 .jumbotron {
     padding: 2rem 1rem;
     background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
@@ -140,6 +145,26 @@ body, html{
     background-color: rgba(105, 186, 39, 1) !important;
 }
 
-.dropdown-menu a:hover{
-    background-color: pink;
+.dropdown-menu .dropdown-item-custom{
+    color: #6c757d;
+}
+
+.dropdown-item-custom{
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item-custom:hover{
+    background-color: #333333;
+    color: white;
+    border-left: 2px solid white;
 }
