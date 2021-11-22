@@ -49,6 +49,10 @@ footer .img-thumbnail{
     text-decoration: underline;
 }
 
+.modal .modal-dialog .modal-content .modal-header{
+    border-bottom: none;
+}
+
 .jumbotron {
     padding: 2rem 1rem;
     background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
@@ -56,7 +60,6 @@ footer .img-thumbnail{
     background-size: cover;
     background-position: center;
     min-height: 85%;
-    /* min-width: 101.3%; */
 }
 
 
@@ -96,8 +99,13 @@ footer .img-thumbnail{
     text-decoration: none;
 }
 
-#content a:hover{
+#content #more:hover{
     text-decoration: underline;
+}
+
+
+#content .list-group:hover{
+    text-decoration: none;
 }
 
 
