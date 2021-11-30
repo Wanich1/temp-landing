@@ -23,6 +23,13 @@ footer .img-thumbnail{
     padding: 0%;
 }
 
+#regisForm .form-control{
+    border-radius: 0!important;
+}
+#regisForm .form-select{
+    border-radius: 0!important;
+}
+
 .avatar{
     vertical-align: middle;
   width: 25px;
